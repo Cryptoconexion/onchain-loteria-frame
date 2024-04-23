@@ -1,0 +1,130 @@
+/* home.module.css */
+
+/* Import the font definitions */
+@import "../styles/fonts.css"; /* Ensure this path is correct */
+
+/* Container for the title and images */
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between elements as needed */
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  /* Adjust this breakpoint as needed */
+  .titleContainer {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+}
+
+/* Styling for images flanking the title */
+.sideImage {
+  width: 250px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.h1Title,
+.h2Title {
+  /* Common styles for title elements */
+  text-align: center; /* Ensures text is centered in their new container */
+}
+
+.h1Title {
+  font-family: "Phage", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(white, rgb(83, 83, 83));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-stroke-width: 2px;
+  text-stroke-color: black;
+  color: transparent;
+}
+.h2Title {
+  font-family: "Glarious", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 8rem;
+  color: rgb(238, 255, 0); /* Neon yellow color */
+
+  text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple,
+    0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple; /* Layered purple shadow for glowing effect */
+}
+.marginhero {
+  margin-top: -80px !important; /* Only apply negative margin when within .hero-content with high priority */
+}
+
+.parallax {
+  background-image: url("/landing/bgonchain.svg");
+
+  /* Set a specific height */
+  min-height: 40vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust the gap between cards as needed */
+  justify-content: center; /* This will center the cards in the container */
+  padding: 2rem;
+}
+
+@media (max-width: 640px) {
+  /* Adjust the breakpoint as needed */
+  .cardSection {
+    flex-direction: column;
+    align-items: center; /* Aligns the cards vertically in the middle on smaller screens */
+  }
+}
+
+.cardbody {
+  background-image: url("/landing/bgonchain.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardtitle {
+  font-family: "Glarious", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3rem;
+  color: rgb(238, 255, 0); /* Neon yellow color */
+}
+
+.carddes {
+  font-family: "Gotham", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(
+    20px
+  ); /* Start the card 20px below its final position */
+  transition: opacity 0.3s ease-in, transform 0.3s ease-in; /* Define the duration and type of transition */
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0); /* End at the normal position */
+}

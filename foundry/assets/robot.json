@@ -1,0 +1,70 @@
+{
+  "name": "Robot",
+  "description": "A 3D model of Robot.",
+  "image": "ipfs://QmU4hdPy9tH8U3ffFyjyxA6xcaPZ9EXziJEVadWShofxJB",
+  "external_url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+  "animation_url": "ipfs://QmadM54czFk3Pab4ke9MCfoXrCtuRJ9izcZtscVeX9RtFv",
+  "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "background_color": "000000",
+  "attributes": [
+    {
+      "trait_type": "Function",
+      "value": "Elder Care",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Titanium Alloy",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Power Source",
+      "value": "Solar",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Mobility",
+      "value": "Bipedal",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "AI Level",
+      "value": "Advanced",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Tool Integration",
+      "value": "High",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Communication",
+      "value": "Multilingual",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Durability",
+      "value": "High Impact Resistance",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Upgradeable",
+      "value": "Yes",
+      "display_type": "boolean"
+    },
+    {
+      "trait_type": "Emotional Intelligence",
+      "value": "Empathetic",
+      "display_type": "string"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "ipfs://QmadM54czFk3Pab4ke9MCfoXrCtuRJ9izcZtscVeX9RtFv",
+        "type": "glTF"
+      }
+    ],
+    "category": "3D model"
+  }
+}

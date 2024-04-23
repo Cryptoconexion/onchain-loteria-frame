@@ -1,0 +1,74 @@
+/* Gotham Font Faces */
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Black.otf") format("opentype");
+  font-weight: 900; /* 'Black' typically corresponds to 900 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Bold.otf") format("opentype");
+  font-weight: bold; /* 'Bold' typically corresponds to 700 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Book.otf") format("opentype");
+  font-weight: 400; /* 'Book' typically corresponds to 400 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Light.otf") format("opentype");
+  font-weight: 300; /* 'Light' typically corresponds to 300 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Medium.otf") format("opentype");
+  font-weight: 500; /* 'Medium' typically corresponds to 500 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Thin.otf") format("opentype");
+  font-weight: 100; /* 'Thin' typically corresponds to 100 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Ultra.otf") format("opentype");
+  font-weight: 800; /* 'Ultra' might be considered 800 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-XLight.otf") format("opentype");
+  font-weight: 200; /* 'XLight' typically corresponds to 200 */
+  font-style: normal;
+}
+
+/* Glarious Font Face */
+@font-face {
+  font-family: "Glarious";
+  src: url("/fonts/Glarious.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Phage Font Face */
+@font-face {
+  font-family: "Phage";
+  src: url("/fonts/Phage Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add additional @font-face rules for other font variations if necessary */

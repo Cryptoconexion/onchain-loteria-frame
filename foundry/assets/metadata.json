@@ -1,0 +1,29 @@
+{
+  "name": "Atovix",
+  "description": "A 3D model of Atovix.",
+  "image": "ipfs://QmaqhEHqBJnSZAWWUUTqCynJjymPQC3kTsRh2whyRHmKhZ",
+  "external_url": "https://arenaton.com",
+  "animation_url": "ipfs://QmSXG51RouQCzrTq5dmasrkmjGD3m9Z88z8pjj1nQpzkmZ",
+  "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "background_color": "000000",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Atovix"
+    },
+    {
+      "trait_type": "Quality",
+      "value": "High",
+      "display_type": "string"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "ipfs://QmSXG51RouQCzrTq5dmasrkmjGD3m9Z88z8pjj1nQpzkmZ",
+        "type": "glTF"
+      }
+    ],
+    "category": "3D model"
+  }
+}

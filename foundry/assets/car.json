@@ -1,0 +1,60 @@
+{
+  "name": "Care",
+  "description": "A 3D model of Care.",
+  "image": "ipfs://QmfYbvmBv5meaKtguHZ6Xn4xmg3o6nAVutxY85cfQFpJTs",
+  "external_url": "https://a-z-animals.com/animals/Care/",
+  "animation_url": "ipfs://Qmco8CvCpMz1Md539pSBnAMsRZUtV8LS4YDTXqmCeTdJ6e",
+  "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "background_color": "000000",
+  "attributes": [
+    {
+      "trait_type": "Body Type",
+      "value": "Sleek",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Neon Purple",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Engine Type",
+      "value": "Electric",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Top Speed",
+      "value": "250 km/h",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": "0-100 km/h in 3s",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Wheel Type",
+      "value": "Alloy",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Interior",
+      "value": "Luxury",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Special Feature",
+      "value": "Autopilot",
+      "display_type": "string"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "ipfs://Qmco8CvCpMz1Md539pSBnAMsRZUtV8LS4YDTXqmCeTdJ6e",
+        "type": "glTF"
+      }
+    ],
+    "category": "3D model"
+  }
+}

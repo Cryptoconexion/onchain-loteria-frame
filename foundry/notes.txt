@@ -1,0 +1,21 @@
+forge script script/erc20.s.sol:scriptErc20 --rpc-url $SEPOLIA_RPC_URL --broadcast --verify
+
+source .env
+forge script script/CarpinteroNFT.s.sol:scriptCarpintero --rpc-url https://sepolia.base.org --broadcast --verify --etherscan-api-key X3K58ADTB9F7YY3I3K4WM8SK8MXZ3DE65A
+
+export FOUNDRY_PROFILE="sepoliaBase"
+
+export BASE_SEPOLIA_API_KEY="X3K58ADTB9F7YY3I3K4WM8SK8MXZ3DE65A"
+
+curl -L https://foundry.paradigm.xyz | bash
+
+source .env
+forge script script/OnchainLoteria.s.sol:scriptOnchainLoteria --rpc-url wss://base-sepolia.g.alchemy.com/v2/p-a8reAzrh0XKj3-OV3zBhj8ULKU8njx --broadcast --verify --etherscan-api-key X3K58ADTB9F7YY3I3K4WM8SK8MXZ3DE65A
+
+
+
+
+
+
+
+forge script script/OnchainLoteria.s.sol:scriptOnchainLoteria --rpc-url https://base-mainnet.g.alchemy.com/v2/hyIRyg5gABLw6zHFefEcIcoquj0sWNDK	 --broadcast --verify --etherscan-api-key X3K58ADTB9F7YY3I3K4WM8SK8MXZ3DE65A

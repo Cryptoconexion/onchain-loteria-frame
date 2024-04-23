@@ -1,0 +1,60 @@
+{
+  "name": "Dark Wolf",
+  "description": "A 3D model of Wolf.",
+  "image": "ipfs://QmWotLsgre8YELFfCYEwoWaWdtvZEkHE9JqVVJgcKeSEew",
+  "external_url": "https://a-z-animals.com/animals/wolf/",
+  "animation_url": "ipfs://QmYJ4cvjnhTUgWhR9oemvM9XfwyjTc8wgqUJukV58fcVfX",
+  "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "background_color": "301934",
+  "attributes": [
+    {
+      "trait_type": "Habitat",
+      "value": "Forest",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Coat Color",
+      "value": "Silver",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Eye Color",
+      "value": "Amber",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Large",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Skill",
+      "value": "Stealth",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Special Ability",
+      "value": "Night Vision",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Pack Status",
+      "value": "Alpha",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Speed",
+      "value": "60 km/h",
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "ipfs://QmYJ4cvjnhTUgWhR9oemvM9XfwyjTc8wgqUJukV58fcVfX",
+        "type": "glTF"
+      }
+    ],
+    "category": "3D model"
+  }
+}

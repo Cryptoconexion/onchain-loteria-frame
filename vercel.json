@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/nft-board-uri-process",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/refresh-metadata",
+      "schedule": "10 * * * *"
+    }
+  ]
+}
